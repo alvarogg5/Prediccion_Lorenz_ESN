@@ -46,7 +46,7 @@ Esta función es la función principal del proyecto. Utiliza las matrices genera
 
 Recuerda que este README es solo una guía general sobre cómo utilizar el proyecto. Asegúrate de que tu entorno de desarrollo esté configurado correctamente y de tener los archivos y bibliotecas necesarios antes de ejecutar el código. ¡Diviértete explorando y experimentando con el proyecto!
 
-#Predicción de Variables Meteorológicas utilizando Redes Neuronales Recurrentes (ESN)
+# Predicción de Variables Meteorológicas utilizando Redes Neuronales Recurrentes (ESN)
 
 Este código (`ÈSN_meteo.py`) ha sido modificado para predecir variables meteorológicas, específicamente, se ha implementado la predicción de tres variables: lluvia, racha máxima y temperatura media. 
 

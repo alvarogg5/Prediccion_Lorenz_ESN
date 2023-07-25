@@ -1,12 +1,13 @@
 # Descripción del Proyecto
 
-Este código implementa una Echo State Network (ESN) para predecir datos del sistema de Lorenz. La ESN utiliza una matriz generada aleatoriamente y datos de entrada para entrenar y realizar predicciones. Proporciona visualizaciones para comparar las predicciones con los datos reales y muestra el error de predicción normalizado.
+Este código (`ÈSN_Lorenz.py`) implementa una Echo State Network (ESN) para predecir datos del sistema de Lorenz. La ESN utiliza una matriz generada aleatoriamente y datos de entrada para entrenar y realizar predicciones. Proporciona visualizaciones para comparar las predicciones con los datos reales y muestra el error de predicción normalizado.
 
 ## Requisitos
 
 - Python 3.x
 - NumPy
 - Matplotlib
+- Pandas
 
 ## Cómo utilizar el proyecto
 
@@ -44,3 +45,13 @@ Esta función es la función principal del proyecto. Utiliza las matrices genera
 - Puedes descomentar y modificar la sección que contiene el gráfico de "Usable Time vs. rho" para explorar el efecto de diferentes valores de `rho` en el tiempo de predicción utilizable.
 
 Recuerda que este README es solo una guía general sobre cómo utilizar el proyecto. Asegúrate de que tu entorno de desarrollo esté configurado correctamente y de tener los archivos y bibliotecas necesarios antes de ejecutar el código. ¡Diviértete explorando y experimentando con el proyecto!
+
+#Predicción de Variables Meteorológicas utilizando Redes Neuronales Recurrentes (ESN)
+
+Este código (`ÈSN_meteo.py`) ha sido modificado para predecir variables meteorológicas, específicamente, se ha implementado la predicción de tres variables: lluvia, racha máxima y temperatura media. 
+
+Se realizan varias transformaciones y manipulaciones de los datos, como el preprocesamiento para eliminar valores no válidos y el ajuste de tipos de datos. Luego, la predicción se lleva a cabo y se muestran gráficos comparando los datos reales con los valores predichos.
+
+La función repository_onlyL es la función principal que realiza el entrenamiento y la predicción. Se han agregado gráficos adicionales para cada una de las variables meteorológicas, lo que permite una visualización más detallada de las predicciones. Además, se ha ajustado el rango de tiempo en el que se realizan las predicciones.
+
+En general, este código representa una extensión significativa del proyecto original, centrado ahora en la predicción de variables meteorológicas. Asegúrate de tener descargado el archivo `2014-2022a.csv`, que contiene los datos meteorológicos, antes de ejecutar el código.

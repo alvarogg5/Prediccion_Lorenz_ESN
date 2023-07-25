@@ -52,6 +52,6 @@ Este código (`ÈSN_meteo.py`) ha sido modificado para predecir variables meteor
 
 Se realizan varias transformaciones y manipulaciones de los datos, como el preprocesamiento para eliminar valores no válidos y el ajuste de tipos de datos. Luego, la predicción se lleva a cabo y se muestran gráficos comparando los datos reales con los valores predichos.
 
-La función repository_onlyL es la función principal que realiza el entrenamiento y la predicción. Se han agregado gráficos adicionales para cada una de las variables meteorológicas, lo que permite una visualización más detallada de las predicciones. Además, se ha ajustado el rango de tiempo en el que se realizan las predicciones.
+La función `repository_onlyL` es la función principal que realiza el entrenamiento y la predicción. Se han agregado gráficos adicionales para cada una de las variables meteorológicas, lo que permite una visualización más detallada de las predicciones. Además, se ha ajustado el rango de tiempo en el que se realizan las predicciones.
 
 En general, este código representa una extensión significativa del proyecto original, centrado ahora en la predicción de variables meteorológicas. Asegúrate de tener descargado el archivo `2014-2022a.csv`, que contiene los datos meteorológicos, antes de ejecutar el código.

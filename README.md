@@ -44,7 +44,7 @@ Esta función es la función principal del proyecto. Utiliza las matrices genera
 
 - Puedes descomentar y modificar la sección que contiene el gráfico de "Usable Time vs. rho" para explorar el efecto de diferentes valores de `rho` en el tiempo de predicción utilizable.
 
-Recuerda que este README es solo una guía general sobre cómo utilizar el proyecto. Asegúrate de que tu entorno de desarrollo esté configurado correctamente y de tener los archivos y bibliotecas necesarios antes de ejecutar el código. ¡Diviértete explorando y experimentando con el proyecto!
+
 
 # Predicción de Variables Meteorológicas utilizando Redes Neuronales Recurrentes (ESN)
 
